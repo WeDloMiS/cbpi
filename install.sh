@@ -56,8 +56,6 @@ show_menu () {
 
            fi
 
-           sudo mv ./config/splash.png /usr/share/plymouth/themes/pix/splash.png
-
            sed "s@#DIR#@${PWD}@g" config/craftbeerpiboot > /etc/init.d/craftbeerpiboot
            chmod 755 /etc/init.d/craftbeerpiboot;
 
