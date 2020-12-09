@@ -89,7 +89,7 @@ INSERT OR IGNORE INTO config VALUES ('buzzer_beep_level', 'HIGH', 'select', 'Buz
 INSERT OR IGNORE INTO config VALUES ('setup', 'YES', 'select', 'Show the Setup dialog', '["YES","NO"]');
 INSERT OR IGNORE INTO config VALUES ('brew_name', '', 'text', 'Brew Name', NULL);
 INSERT OR IGNORE INTO config VALUES ('donation_notification', 'YES', 'select', 'Disable Donation Notification', '["YES","NO"]');
-
+INSERT OR IGNORE INTO config VALUES ('flowunit', 'L', 'select', 'Flowmeter unit', '["L", "gal(us)", "gal(uk)", "qt"]');
 
 CREATE TABLE IF NOT EXISTS actor
 (
